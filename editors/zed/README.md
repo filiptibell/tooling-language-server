@@ -10,4 +10,4 @@ The extension supports the following slash commands:
   GitHub personal access token to use for GitHub API requests. This prevents rate limiting and is
   required for the language server to work if you're using a private Wally index repository.
 * `/tooling-language-server-remove-github-personal-access-token`: Removes the GitHub personal access
-  token that was previously set, if any.
+  token that was previously set.
