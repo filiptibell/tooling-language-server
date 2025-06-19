@@ -81,7 +81,7 @@ pub async fn get_npm_diagnostics(
         return Ok(vec![Diagnostic {
             source: Some(String::from("NPM")),
             range: dep_version.range,
-            message: format!("Version `{version}` is deprecated: {deprecation_reason}",),
+            message: format!("Version `{version}` is deprecated: {deprecation_reason}"),
             severity: Some(DiagnosticSeverity::WARNING),
             tags: Some(vec![DiagnosticTag::DEPRECATED]),
             ..Default::default()
